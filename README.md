@@ -68,29 +68,27 @@ pip install -r requirements.txt
 4. **Setup Environment variables**
 
 ```bash
+
 FLASK_APP=app
 PYTHONPATH=.
-
-````
+```
 5. **Run migrations**
 
-````bash
+```bash
 flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
 ```
-6. **Seed the database**
-
+6. **seed the database** 
 ```bash
 python seed.py
 ```
 7. **Start the Flask server**
-
 ```bash
 python run.py
 The server will run on: http://localhost:5555
 ```
-## 🚀 API Endpoints
+
 
 ## 🚀 API Endpoints
 
